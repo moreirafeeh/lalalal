@@ -2,14 +2,12 @@ import time
 
 @given(u'Santander Financimentos')
 def step_impl(context):
-    #context.main.acessa_financia_veiculo()
-    #time.sleep(5)  
+    #context.main.acessa_financia_veiculo()  
     pass
 
 
 @when(u'Preencher Dados do veiculo')
 def step_impl(context):
-    time.sleep(4)
     context.financa.preenche_dados_veiculos()
     pass
 
@@ -27,4 +25,5 @@ def step_impl(context):
 
 @then(u'Preço do financimento')
 def step_impl(context):
+    context.financa.validar_resultado()
     pass
