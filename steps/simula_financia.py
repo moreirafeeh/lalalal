@@ -23,7 +23,7 @@ def step_impl(context):
     pass
 
 
-@then(u'Preço do financimento')
+@then(u'Preco do financimento')
 def step_impl(context):
     context.financa.validar_resultado()
     pass

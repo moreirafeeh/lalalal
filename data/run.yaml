@@ -1,0 +1,6 @@
+Teste1:
+    Tipo: Web
+    Saida: saida.json
+    Navegadores:
+        - Chrome
+    Name: Satander_teste

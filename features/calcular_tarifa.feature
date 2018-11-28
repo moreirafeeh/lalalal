@@ -6,4 +6,4 @@ Scenario: Calcular Financimanto
     When Preencher Dados do veiculo
     Then Botao Continuar Habilitado
     When Preencher Dados Pessoais
-    Then Preço do financimento
+    Then Preco do financimento
